@@ -12,7 +12,7 @@ export default function Header() {
     };
 
     return (
-        <header className="w-full bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg">
+        <header className="w-full bg-gradient-to-r from-black via-gray-900 to-yellow-600 shadow-lg shadow-yellow-500/20">
             <div className="container mx-auto px-4 py-4">
                 <div className="flex items-center justify-between">
                     {/* Logo and Title */}
@@ -37,13 +37,13 @@ export default function Header() {
                     <div className="hidden lg:flex items-center space-x-4">
                         <Link
                             href="/about"
-                            className="text-white hover:text-blue-300 transition-colors font-semibold px-4 py-2 rounded-lg hover:bg-blue-800/30"
+                            className="text-white hover:text-yellow-300 transition-colors font-semibold px-4 py-2 rounded-lg hover:bg-yellow-600/20"
                         >
                             Crypto WorldCup?
                         </Link>
                         <Link
                             href="/participants"
-                            className="text-white hover:text-blue-300 transition-colors font-semibold px-4 py-2 rounded-lg hover:bg-blue-800/30"
+                            className="text-white hover:text-yellow-300 transition-colors font-semibold px-4 py-2 rounded-lg hover:bg-yellow-600/20"
                         >
                             Participants
                         </Link>
@@ -71,18 +71,18 @@ export default function Header() {
 
                 {/* Mobile Menu */}
                 {isMobileMenuOpen && (
-                    <div className="lg:hidden mt-4 pb-4 border-t border-blue-800/30">
+                        <div className="lg:hidden mt-4 pb-4 border-t border-yellow-600/30">
                         <div className="flex flex-col space-y-3 pt-4">
                             <Link
                                 href="/about"
-                                className="text-white hover:text-blue-300 transition-colors font-semibold px-4 py-2 rounded-lg hover:bg-blue-800/30"
+                                className="text-white hover:text-yellow-300 transition-colors font-semibold px-4 py-2 rounded-lg hover:bg-yellow-600/20"
                                 onClick={() => setIsMobileMenuOpen(false)}
                             >
                                 Crypto WorldCup?
                             </Link>
                             <Link
                                 href="/participants"
-                                className="text-white hover:text-blue-300 transition-colors font-semibold px-4 py-2 rounded-lg hover:bg-blue-800/30"
+                                className="text-white hover:text-yellow-300 transition-colors font-semibold px-4 py-2 rounded-lg hover:bg-yellow-600/20"
                                 onClick={() => setIsMobileMenuOpen(false)}
                             >
                                 Participants

@@ -215,7 +215,7 @@ export default function TournamentBracket() {
                             <p className="text-xs font-bold text-white truncate">
                                 {match.local_team.name}
                             </p>
-                            <p className="text-xs text-blue-300 font-mono">
+                            <p className="text-xs text-yellow-300 font-mono">
                                 ${match.local_team.ticker}
                             </p>
                             <p className="text-xs text-gray-300">
@@ -253,7 +253,7 @@ export default function TournamentBracket() {
                                         }}
                                     />
                                 </div>
-                                <div className="text-xs text-yellow-400 font-mono">
+                                <div className="text-xs text-yellow-500 font-mono">
                                     ${match.winner_team!.ticker}
                                 </div>
                             </div>
@@ -295,7 +295,7 @@ export default function TournamentBracket() {
                             <p className="text-xs font-bold text-white truncate">
                                 {match.visitant_team.name}
                             </p>
-                            <p className="text-xs text-blue-300 font-mono">
+                            <p className="text-xs text-yellow-300 font-mono">
                                 ${match.visitant_team.ticker}
                             </p>
                             <p className="text-xs text-gray-300">
@@ -326,7 +326,7 @@ export default function TournamentBracket() {
             <h2 className="text-3xl sm:text-4xl font-bold text-white text-center mb-4">
                 $CWC 2025 BRACKETS
             </h2>
-            <p className="text-center text-blue-200 mb-8 text-sm sm:text-base">
+            <p className="text-center text-yellow-200 mb-8 text-sm sm:text-base">
                 🚀 Click on any token to buy it on Pump.fun and support your favorite team! 🚀
             </p>
 
@@ -335,7 +335,7 @@ export default function TournamentBracket() {
                     <div className="flex gap-4 items-center">
                         {/* 4 primeros octavos */}
                         <div className="w-48 space-y-4">
-                            <h3 className="text-lg font-bold text-yellow-400 text-center mb-4">
+                            <h3 className="text-lg font-bold text-yellow-500 text-center mb-4">
                                 Round of 16
                             </h3>
                             <div className="space-y-3">
@@ -348,7 +348,7 @@ export default function TournamentBracket() {
 
                         {/* 2 primeros cuartos */}
                         <div className="w-48 space-y-4">
-                            <h3 className="text-lg font-bold text-blue-400 text-center mb-4">
+                            <h3 className="text-lg font-bold text-amber-400 text-center mb-4">
                                 Quarter Finals
                             </h3>
                             <div className="space-y-3">
@@ -361,7 +361,7 @@ export default function TournamentBracket() {
 
                         {/* Primera semifinal */}
                         <div className="w-48 space-y-4">
-                            <h3 className="text-lg font-bold text-purple-400 text-center mb-4">
+                            <h3 className="text-lg font-bold text-yellow-600 text-center mb-4">
                                 Semi Finals
                             </h3>
                             <div className="space-y-3">
@@ -383,7 +383,7 @@ export default function TournamentBracket() {
                                         className="object-contain"
                                     />
                                 </div>
-                                <h3 className="text-lg font-bold text-yellow-400">
+                                <h3 className="text-lg font-bold text-yellow-500">
                                     🏆 GRAND FINAL 🏆
                                 </h3>
                             </div>
@@ -397,7 +397,7 @@ export default function TournamentBracket() {
 
                         {/* Segunda semifinal */}
                         <div className="w-48 space-y-4">
-                            <h3 className="text-lg font-bold text-purple-400 text-center mb-4">
+                            <h3 className="text-lg font-bold text-yellow-600 text-center mb-4">
                                 Semi Finals
                             </h3>
                             <div className="space-y-3">
@@ -410,7 +410,7 @@ export default function TournamentBracket() {
 
                         {/* 2 últimos cuartos */}
                         <div className="w-48 space-y-4">
-                            <h3 className="text-lg font-bold text-blue-400 text-center mb-4">
+                            <h3 className="text-lg font-bold text-amber-400 text-center mb-4">
                                 Quarter Finals
                             </h3>
                             <div className="space-y-3">
@@ -423,7 +423,7 @@ export default function TournamentBracket() {
 
                         {/* 4 últimos octavos */}
                         <div className="w-48 space-y-4">
-                            <h3 className="text-lg font-bold text-yellow-400 text-center mb-4">
+                            <h3 className="text-lg font-bold text-yellow-500 text-center mb-4">
                                 Round of 16
                             </h3>
                             <div className="space-y-3">

@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export default function AboutPage() {
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 flex flex-col">
+        <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-yellow-900 flex flex-col">
             <Header />
 
             <main className="container mx-auto px-4 py-8 flex-1">
@@ -16,17 +16,17 @@ export default function AboutPage() {
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 bg-clip-text text-transparent">
                         THE FIRST CRYPTOCURRENCIES WORLD CUP
                     </h1>
-                    <p className="text-xl sm:text-2xl text-blue-200 mb-8">
+                    <p className="text-xl sm:text-2xl text-yellow-200 mb-8">
                         🏆 The most EPIC memecoin tournament in crypto history 🏆
                     </p>
-                    <div className="bg-gradient-to-r from-red-600 to-yellow-500 text-white px-6 py-3 rounded-full inline-block font-bold text-lg">
+                    <div className="bg-gradient-to-r from-yellow-600 to-yellow-700 text-black px-6 py-3 rounded-full inline-block font-bold text-lg shadow-lg shadow-yellow-500/20">
                         🚀 OCTOBER 2025 - THE REVOLUTION BEGINS 🚀
                     </div>
                 </div>
 
                 {/* What is CWC Section */}
                 <section className="mb-16">
-                    <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-gray-700">
+                    <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/30 shadow-lg shadow-yellow-500/10">
                         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 text-center">
                             🌍 What is the Cryptocurrencies World Cup?
                         </h2>
@@ -43,9 +43,9 @@ export default function AboutPage() {
                                 </p>
                             </div>
                             <div className="relative">
-                                <div className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl p-6 text-center">
+                                <div className="bg-gradient-to-br from-yellow-600 to-yellow-700 rounded-xl p-6 text-center shadow-lg shadow-yellow-500/20">
                                     <h3 className="text-2xl font-bold text-white mb-2">16 TOKENS</h3>
-                                    <p className="text-blue-200">Epic Battles</p>
+                                    <p className="text-yellow-200">Epic Battles</p>
                                     <div className="mt-4 text-4xl">⚔️</div>
                                 </div>
                             </div>
@@ -55,14 +55,14 @@ export default function AboutPage() {
 
                 {/* Matchmaking Ceremony */}
                 <section className="mb-16">
-                    <div className="bg-gradient-to-br from-purple-800 to-pink-800 rounded-2xl p-8 border border-purple-600">
+                        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/50 shadow-lg shadow-yellow-500/20">
                         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 text-center">
                             🎲 The Epic Matchmaking Ceremony
                         </h2>
                         <div className="text-center mb-8">
                             <div className="bg-white/10 rounded-xl p-6 inline-block">
                                 <h3 className="text-2xl font-bold text-white mb-2">LIVE ON PUMP.FUN</h3>
-                                <p className="text-purple-200">Traditional paper lottery draw</p>
+                                <p className="text-yellow-200">Traditional paper lottery draw</p>
                             </div>
                         </div>
                         <div className="grid md:grid-cols-2 gap-8">
@@ -78,7 +78,7 @@ export default function AboutPage() {
                                         <span><strong>Quarter Finals:</strong> 2 matches per day (6 hours each)</span>
                                     </li>
                                     <li className="flex items-center">
-                                        <span className="text-orange-400 mr-2">🥇</span>
+                                        <span className="text-yellow-500 mr-2">🥇</span>
                                         <span><strong>Semi Finals:</strong> 1 match per day (FULL DAY)</span>
                                     </li>
                                     <li className="flex items-center">
@@ -105,7 +105,7 @@ export default function AboutPage() {
 
                 {/* How It Works */}
                 <section className="mb-16">
-                    <div className="bg-gradient-to-br from-green-800 to-blue-800 rounded-2xl p-8 border border-green-600">
+                        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/50 shadow-lg shadow-yellow-500/20">
                         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 text-center">
                             ⚔️ How The Battles Work
                         </h2>
@@ -131,7 +131,7 @@ export default function AboutPage() {
 
                 {/* Token Creation Process */}
                 <section className="mb-16">
-                    <div className="bg-gradient-to-br from-yellow-800 to-orange-800 rounded-2xl p-8 border border-yellow-600">
+                        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/50 shadow-lg shadow-yellow-500/20">
                         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 text-center">
                             🪙 Token Creation Process
                         </h2>
@@ -182,7 +182,7 @@ export default function AboutPage() {
 
                 {/* CTA Section */}
                 <section className="mb-16">
-                    <div className="bg-gradient-to-r from-red-600 via-purple-600 to-blue-600 rounded-2xl p-8 text-center">
+                        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 text-center border border-yellow-600/30 shadow-lg shadow-yellow-500/20">
                         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
                             🚀 GET YOUR CWC TOKENS NOW! 🚀
                         </h2>
@@ -193,7 +193,7 @@ export default function AboutPage() {
                             href="https://pump.fun"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-8 rounded-full text-xl transition-all duration-300 transform hover:scale-105"
+                            className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-8 rounded-full text-xl transition-all duration-300 transform hover:scale-105 shadow-lg shadow-yellow-500/30"
                         >
                             🪙 BUY CWC TOKENS 🪙
                         </Link>
@@ -202,7 +202,7 @@ export default function AboutPage() {
 
                 {/* Social Media */}
                 <section className="mb-16">
-                    <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-gray-700">
+                    <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/30 shadow-lg shadow-yellow-500/10">
                         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 text-center">
                             📱 Stay Connected
                         </h2>
@@ -233,7 +233,7 @@ export default function AboutPage() {
 
                 {/* Winner Prize */}
                 <section className="mb-16">
-                    <div className="bg-gradient-to-br from-yellow-600 to-orange-600 rounded-2xl p-8 border border-yellow-400">
+                        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/50 shadow-lg shadow-yellow-500/20">
                         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 text-center">
                             🏆 THE ULTIMATE PRIZE 🏆
                         </h2>

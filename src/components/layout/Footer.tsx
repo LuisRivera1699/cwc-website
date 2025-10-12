@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <footer className="w-full bg-gradient-to-r from-blue-900 to-purple-900 border-t border-blue-800/30">
+        <footer className="w-full bg-gradient-to-r from-black via-gray-900 to-yellow-600 border-t border-yellow-600/30 shadow-lg shadow-yellow-500/20">
             <div className="container mx-auto px-4 py-8">
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
                     {/* Logo and Title */}
@@ -19,7 +19,7 @@ export default function Footer() {
                             <h3 className="text-xl sm:text-2xl font-bold text-white">
                                 $CWC
                             </h3>
-                            <p className="text-sm text-blue-200">
+                            <p className="text-sm text-yellow-200">
                                 Cryptocurrencies World Cup
                             </p>
                         </div>
@@ -67,8 +67,8 @@ export default function Footer() {
                 </div>
 
                 {/* Copyright */}
-                <div className="mt-8 pt-6 border-t border-blue-800/30">
-                    <p className="text-center text-blue-200 text-sm">
+                <div className="mt-8 pt-6 border-t border-yellow-600/30">
+                    <p className="text-center text-yellow-200 text-sm">
                         © 2025 Cryptocurrencies World Cup. The most epic crypto tournament.
                     </p>
                 </div>

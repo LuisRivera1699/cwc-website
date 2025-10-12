@@ -122,8 +122,8 @@ export default function TransactionCarousel({ events, localTeam, visitantTeam }:
                         <div
                             key={transaction.id}
                             className={`px-3 py-1 rounded-full text-xs font-bold animate-pulse ${transaction.type === 'buy'
-                                ? 'bg-green-500 text-white'
-                                : 'bg-red-500 text-white'
+                                ? 'bg-emerald-600 text-white'
+                                : 'bg-red-700 text-white'
                                 }`}
                         >
                             {transaction.type === 'buy' ? '🟢' : '🔴'} {transaction.type.toUpperCase()} {transaction.ticker} {transaction.amount.toLocaleString()}

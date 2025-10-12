@@ -49,7 +49,7 @@ export default function CurrentMatch({ match }: CurrentMatchProps) {
                 <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2">
                     🔥 LIVE MATCH 🔥
                 </h2>
-                <p className="text-lg text-blue-200 mb-2">
+                                <p className="text-lg text-yellow-200 mb-2">
                     Current Tournament Battle
                 </p>
                 {connectionError && (
@@ -58,7 +58,7 @@ export default function CurrentMatch({ match }: CurrentMatchProps) {
                     </p>
                 )}
                 {isConnected && tokenAddresses.length > 0 && (
-                    <p className="text-sm text-green-400">
+                    <p className="text-sm text-emerald-400">
                         ✅ Trade monitoring active ({tokenAddresses.length} tokens)
                     </p>
                 )}
@@ -75,7 +75,7 @@ export default function CurrentMatch({ match }: CurrentMatchProps) {
                 )}
             </div>
 
-            <div className="bg-gradient-to-r from-yellow-600 via-red-600 to-pink-600 rounded-2xl p-6 border-4 border-yellow-400 shadow-2xl relative">
+            <div className="bg-gradient-to-r from-yellow-600 via-amber-800 to-black rounded-2xl p-6 border-4 border-yellow-500/50 shadow-2xl shadow-yellow-500/20 relative">
                 <div className="bg-black/20 rounded-xl p-6 relative">
                     <div className="flex flex-row items-center justify-between gap-4 sm:gap-6">
                         {/* Local Team */}
@@ -95,7 +95,7 @@ export default function CurrentMatch({ match }: CurrentMatchProps) {
                                 <h3 className="text-sm sm:text-xl font-bold text-white mb-1 sm:mb-2">
                                     {match.local_team?.name || 'TBD'}
                                 </h3>
-                                <p className="text-sm sm:text-lg text-blue-300 font-mono mb-1 sm:mb-2">
+                                <p className="text-sm sm:text-lg text-yellow-300 font-mono mb-1 sm:mb-2">
                                     ${match.local_team?.ticker || 'TBD'}
                                 </p>
                                 <div className="bg-white/10 rounded-lg p-2 sm:p-3 mb-2">
@@ -124,7 +124,7 @@ export default function CurrentMatch({ match }: CurrentMatchProps) {
                         <div className="flex flex-col items-center mx-2 sm:mx-4">
                             <div className="text-center">
                                 <div className="text-xl sm:text-3xl font-bold text-white mb-1 sm:mb-2">VS</div>
-                                <div className="bg-red-600 text-white px-2 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-bold animate-pulse">
+                                <div className="bg-red-700 text-white px-2 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-bold animate-pulse">
                                     LIVE
                                 </div>
                             </div>
@@ -147,7 +147,7 @@ export default function CurrentMatch({ match }: CurrentMatchProps) {
                                 <h3 className="text-sm sm:text-xl font-bold text-white mb-1 sm:mb-2">
                                     {match.visitant_team?.name || 'TBD'}
                                 </h3>
-                                <p className="text-sm sm:text-lg text-blue-300 font-mono mb-1 sm:mb-2">
+                                <p className="text-sm sm:text-lg text-yellow-300 font-mono mb-1 sm:mb-2">
                                     ${match.visitant_team?.ticker || 'TBD'}
                                 </p>
                                 <div className="bg-white/10 rounded-lg p-2 sm:p-3 mb-2">
