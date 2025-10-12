@@ -18,7 +18,8 @@ export function useMarketCap(contractAddress: string | undefined) {
 
         const fetchMarketCap = async () => {
             try {
-                const response = await fetch(`https://frontend-api-v3.pump.fun/coins/${contractAddress}`);
+                // Usar nuestro proxy API en lugar de llamar directamente a Pump.fun
+                const response = await fetch(`/api/pump-fun/coins/${contractAddress}`);
 
                 if (!response.ok) {
                     return; // Mantener el último valor
