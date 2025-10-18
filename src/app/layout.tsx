@@ -36,6 +36,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'Cryptocurrencies World Cup - The Ultimate Crypto Tournament',
+        type: 'image/png',
       },
     ],
     locale: 'en_US',
