@@ -55,7 +55,7 @@ export default function AboutPage() {
 
                 {/* Matchmaking Ceremony */}
                 <section className="mb-16">
-                        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/50 shadow-lg shadow-yellow-500/20">
+                    <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/50 shadow-lg shadow-yellow-500/20">
                         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 text-center">
                             🎲 The Epic Matchmaking Ceremony
                         </h2>
@@ -105,7 +105,7 @@ export default function AboutPage() {
 
                 {/* How It Works */}
                 <section className="mb-16">
-                        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/50 shadow-lg shadow-yellow-500/20">
+                    <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/50 shadow-lg shadow-yellow-500/20">
                         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 text-center">
                             ⚔️ How The Battles Work
                         </h2>
@@ -131,7 +131,7 @@ export default function AboutPage() {
 
                 {/* Token Creation Process */}
                 <section className="mb-16">
-                        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/50 shadow-lg shadow-yellow-500/20">
+                    <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/50 shadow-lg shadow-yellow-500/20">
                         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 text-center">
                             🪙 Token Creation Process
                         </h2>
@@ -182,7 +182,7 @@ export default function AboutPage() {
 
                 {/* CTA Section */}
                 <section className="mb-16">
-                        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 text-center border border-yellow-600/30 shadow-lg shadow-yellow-500/20">
+                    <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 text-center border border-yellow-600/30 shadow-lg shadow-yellow-500/20">
                         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
                             🚀 GET YOUR CWC TOKENS NOW! 🚀
                         </h2>
@@ -233,7 +233,7 @@ export default function AboutPage() {
 
                 {/* Winner Prize */}
                 <section className="mb-16">
-                        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/50 shadow-lg shadow-yellow-500/20">
+                    <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-yellow-600/50 shadow-lg shadow-yellow-500/20">
                         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 text-center">
                             🏆 THE ULTIMATE PRIZE 🏆
                         </h2>
@@ -249,7 +249,7 @@ export default function AboutPage() {
                                     loop
                                     playsInline
                                 >
-                                    <source src="/videos/rotating.mp4" type="video/mp4" />
+                                    <source src="/videos/rotating-2.mp4" type="video/mp4" />
                                     Your browser does not support the video element.
                                 </video>
                             </div>
