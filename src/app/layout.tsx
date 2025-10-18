@@ -17,9 +17,13 @@ export const metadata: Metadata = {
   title: "Cryptocurrencies World Cup - CWC",
   description: "The most epic cryptocurrency competition. 16 tokens, one winner. Launching November 1st, 2025!",
   icons: {
-    icon: '/assets/cup.png',
-    shortcut: '/assets/cup.png',
-    apple: '/assets/cup.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.png', type: 'image/png' },
+      { url: '/assets/cup.png', type: 'image/png' }
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
   },
   openGraph: {
     title: "🏆 Cryptocurrencies World Cup - CWC 🏆",
